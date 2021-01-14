@@ -1,0 +1,44 @@
+.main-home{
+    /* position: relative; */
+    /* background: #fff; */
+    /* color: red; */
+}
+.container{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    background: rgba(255, 255, 255, 0.9);
+}
+.authentication-screen {
+    padding: 15% 2% 15% 2%;
+    width:100%;
+    margin: 0px auto;
+}
+
+.auth-form {
+    padding: 5% 0% 0% 0%;
+    border-top: solid 1px #dee2e6;
+    margin-top: 2%;
+}
+
+.nav-pills .nav-link {
+    width: 50%;
+    text-align: center;
+}
+
+.auth-loading {
+    left: 0;
+}
+
+@media (max-width: 690px) {
+    .container {
+        bottom: 0;
+        height: 280px;
+        max-width: 100%;
+    }
+
+    .authentication-screen {
+        padding-top: 10%;
+    }
+}
